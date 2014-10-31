@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.playone.test" version="1.0.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.playone.base" version="1.0.0.0">
 
-	<name>IAB</name>
-	<description>New project</description>
-	<author>cranberrygame</author>
+	<name>Base</name>
+	<description>Fire Base Test</description>
+	<author>playone</author>
 
 	<icon src="icon-128.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
@@ -17,13 +17,8 @@
 	<preference name="fullscreen" value="true" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
-
-	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="14" />
 	<preference name="target-device" value="universal" />
-
-	<gap:plugin name="org.apache.cordova.inappbrowser" />
-	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
